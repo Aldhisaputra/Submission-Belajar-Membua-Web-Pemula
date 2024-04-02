@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-
 :root {
   --primary: hsl(217, 91%, 60%);
   --gray: hsl(215, 20%, 65%);
-  --bg-body: rgb(248, 250, 252);
+  --bg-body: rgba(248, 250, 252, 0.913);
   --paragraph-color: rgb(51, 65, 85);
   --dark: rgb(15, 23, 42);
 }
@@ -40,10 +38,9 @@ align-items: center;
 
 .form-container,
 .cari-container,
-.left-container,
-.right-container {
-    margin-bottom: 1rem;
-
+.not-container,
+.finish-container {
+  margin-bottom: 1rem;
   padding: 1rem;
   background: #fff;
   border-radius: 1rem;
@@ -228,21 +225,7 @@ header {
   .kembalikan-btn:hover {
     background-color: hsl(48, 96%, 47%);
   }
-  
-  .alert {
-    position: fixed;
-    top: 1rem;
-    right: 1rem;
-    padding: 0.5rem 1rem;
-    color: #fff;
-    z-index: 100;
-    background-color: #22c55e;
-    transition: 0.5s;
-  }
-  
-  .hidden {
-    display: none;
-  }  
+    
 
 
 
