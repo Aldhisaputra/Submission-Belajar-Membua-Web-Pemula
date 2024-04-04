@@ -36,6 +36,12 @@ align-items: center;
 
 }
 
+.bottom {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
 .form-container,
 .cari-container,
 .not-container,
