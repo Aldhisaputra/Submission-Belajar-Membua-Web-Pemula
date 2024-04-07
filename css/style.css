@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
   background-color: var(--bg-body);
   font-size: 1rem;
   font-weight: 500;
@@ -136,21 +136,6 @@ header {
   .submit-btn:hover,
   .cari-btn:hover {
     background-color: hsl(217, 91%, 50%);
-  }
-
-  .form-check {
-    display: flex;
-    align-items: center;
-    gap: 0.25rem;
-  }
-  
-  .form-check label {
-    color: var(--primary);
-  }
-  
-  .form-check input,
-  .form-check label {
-    cursor: pointer;
   }
   
   .item {
