@@ -75,11 +75,14 @@ const addBook = () => {
     bookStatus = false;
   }
 
+  const yearValue = new Date(bookYear.value);
+  const formattedDate = yearValue.getDate() + '/' + (yearValue.getMonth() + 1) + '/' + yearValue.getFullYear(); // Bulan dimulai dari 0, maka tambahkan 1
+
   books.push({
     id: +new Date(),
     title: bookTitle.value,
     author: bookAuthor.value,
-    year: Number(bookYear.value),
+    year: formattedDate,
     isComplete: bookStatus,
   });
 
